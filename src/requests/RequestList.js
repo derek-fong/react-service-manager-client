@@ -19,8 +19,12 @@ export default class RequestList extends Component {
   }
 
   render() {
+    const containerStyle = {
+      marginTop: '2em'
+    };
+
     return (
-      <Container>
+      <Container style={containerStyle}>
         <h1>Request List</h1>
 
         <Table responsive>
